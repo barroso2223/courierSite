@@ -223,7 +223,7 @@ header {
 @keyframes scrollReveal {
 	from {
 		opacity: 0;
-		transform: translateX(-600px);
+		transform: translateX(-700px);
 	}
 	to {
 		opacity: 1;
@@ -233,7 +233,7 @@ header {
 @-webkit-keyframes scrollReveal {
 	from {
 		opacity: 0;
-		transform: translateX(-500px);
+		transform: translateX(-700px);
 	}
 	to {
 		opacity: 1;
@@ -243,7 +243,7 @@ header {
 @-moz-keyframes scrollReveal {
 	from {
 		opacity: 0;
-		transform: translateX(-500px);
+		transform: translateX(-700px);
 	}
 	to {
 		opacity: 1;
@@ -253,7 +253,7 @@ header {
 @-o-keyframes scrollReveal {
 	from {
 		opacity: 0;
-		transform: translateX(-500px);
+		transform: translateX(-700px);
 	}
 	to {
 		opacity: 1;
