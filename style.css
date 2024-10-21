@@ -524,9 +524,13 @@ video {
 
 @keyframes fadeIn {
     from {
-        transform: translateX(-400px)
+        transform: translateX(-600px);
+        opacity: 0;
+    
+
     }to {
         transform: translateX(0);
+        opacity: 1;
     }
 }
 
