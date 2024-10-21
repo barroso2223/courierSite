@@ -223,40 +223,48 @@ header {
 @keyframes scrollReveal {
 	from {
 		opacity: 0;
-		transform: translateX(-700px);
+		transform: translateY(25px);
+		transform: translateX(-500px);
 	}
 	to {
 		opacity: 1;
+		transform: translateY(0);
 		transform: translateX(0);
 	}
 }
 @-webkit-keyframes scrollReveal {
 	from {
 		opacity: 0;
-		transform: translateX(-700px);
+		transform: translateY(25px);
+		transform: translateX(-500px);
 	}
 	to {
 		opacity: 1;
+		transform: translateY(0);
 		transform: translateX(0);
 	}
 }
 @-moz-keyframes scrollReveal {
 	from {
 		opacity: 0;
-		transform: translateX(-700px);
+		transform: translateY(25px);
+		transform: translateX(-500px);
 	}
 	to {
 		opacity: 1;
+		transform: translateY(0);
 		transform: translateX(0);
 	}
 }
 @-o-keyframes scrollReveal {
 	from {
 		opacity: 0;
-		transform: translateX(-700px);
+		transform: translateY(25px);
+		transform: translateX(-500px);
 	}
 	to {
 		opacity: 1;
+		transform: translateY(0);
 		transform: translateX(0);
 	}
 }
