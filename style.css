@@ -981,6 +981,14 @@ video {
 		text-align: center;
 	}
 
+	#about,
+	#services,
+	#gallery,
+	#contactMe {
+		display: grid;
+		place-content: center;
+	}
+
 	#home {
 		display: grid;
 		place-items: center;
