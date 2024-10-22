@@ -270,8 +270,7 @@ header {
 }
 
 #about,
-#gallery,
-#footer {
+#gallery {
 	-webkit-animation: ease-in-out both scrollRevealRight;
 	-moz-animation: ease-in-out both scrollRevealRight;
 	-o-animation: ease-in-out both scrollRevealRight;
@@ -697,7 +696,7 @@ video {
 	z-index: 1;
 }
 
-#services::before {
+/* #services::before {
 	content: "";
 	position: absolute;
 	background-image: url('images/8.png');
@@ -707,7 +706,7 @@ video {
 	z-index: -1;
 	background-size: cover;
 	object-fit: contain;
-}
+} */
 
 #services h2 {
 	text-align: center;
@@ -1107,7 +1106,4 @@ video {
 		margin-top: 1rem;
 	} */
 
-	#services {
-		margin-left: .75rem;
-	}
 }
