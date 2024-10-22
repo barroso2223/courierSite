@@ -696,18 +696,6 @@ video {
 	z-index: 1;
 }
 
-/* #services::before {
-	content: "";
-	position: absolute;
-	background-image: url('images/8.png');
-	opacity: .3;
-	inset: 0;
-	color: var(--clrMain100);
-	z-index: -1;
-	background-size: cover;
-	object-fit: contain;
-} */
-
 #services h2 {
 	text-align: center;
 	color: var(--clrMain100);
@@ -976,24 +964,18 @@ video {
 /* @media */
 
 @media screen and (max-width: 850px) {
-	* {
-		text-align: center;
-	}
-
+	
+	#home,
 	#about,
 	#services,
 	#gallery,
 	#contactMe {
 		display: grid;
-		place-content: center;
-	}
-
-	#home {
-		display: grid;
 		place-items: center;
 		padding: 0 1rem;
 		margin: auto;
 		min-height: 100dvh;
+		text-align: center;
 	}
 
 	#home header {
@@ -1006,8 +988,7 @@ video {
 		margin-bottom: 3rem;
 	}
 
-    #navBar,
-	#starterHome #navBar {
+    #navBar {
         display: flex;
 		flex-direction: column;
         justify-content: center;
@@ -1070,40 +1051,14 @@ video {
         width: 70%;
     }
 
-	.split {
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		justify-content: center;
-		margin: auto;
-		padding-bottom: 1rem;
-		padding-top: .5rem;
-	}
-
 	.splitLeft,
 	.splitRight {
-		display: grid;
-		place-items: center;
-		text-align: left;
-		max-width: 90dvw;
+		max-width: 80dvw;
 		margin: auto;
 	}
 
-	/* #about .splitRight {
-		margin-top: -4rem;
-	
+	#services {
+		padding: -5rem auto;
 	}
-	#about .splitRight .imageCards {
-		gap: 1rem;
-	}
-
-	#about .splitLeft {
-		text-align: start;
-	}
-
-	#about .splitLeft .serviceList {
-		text-align: left;
-		margin-top: 1rem;
-	} */
 
 }
