@@ -496,7 +496,7 @@ nav .faFonts {
     position: absolute;
     background: var(--clrMain900);
     inset: 0;
-    opacity: .71;
+    opacity: .5;
     z-index: -1;
 }
 
@@ -668,18 +668,8 @@ video {
 	place-items: center;
 } */
 
-#about .arrowClass a, #Sitios .arrowClass a {
-	text-decoration: none;
-	height: 3dvh;
-}
 
-.arrowClass {
-	height: 3dvh;
-	margin: auto;
-}
-
-#services,
-#Me {
+#services {
 	min-height: 100dvh;
 	max-width: 100dvw;
 	display: grid;
@@ -694,6 +684,19 @@ video {
     position: relative;
 	line-height: 1.3;
 	z-index: 1;
+}
+
+
+#services::before {
+	content: "";
+	position: absolute;
+	background-image: url('Images/5.png');
+	opacity: .5;
+	inset: 0;
+	color: var(--clrMain100);
+	z-index: -1;
+	background-size: cover;
+	object-fit: contain;
 }
 
 #services h2 {
@@ -868,15 +871,6 @@ video {
 	place-items: center;
 	position: relative;
 }
-/* 
-#contactMe::before,
-#Contacto::before {
-	content: "";
-	position: absolute;
-	background-image: url("/images/homePage.png");
-	background-size: cover;
-	opacity: .5;
-} */
 
 #contactMe h2,
 #contactMe p {
